@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shimmering",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Ahmedemad0/Shimmering.git",
+      "state" : {
+        "revision" : "96799ce0d769c09f14c516dbfcae69c6bfe8874a",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
