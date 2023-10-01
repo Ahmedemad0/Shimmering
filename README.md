@@ -2,7 +2,7 @@
 
 ## Installation
 
-To install this package, import `https://github.com/Ahmedemad0/IOS-Shimmering.git` in Swift Package Manager.
+To install this package, import `https://github.com/Ahmedemad0/Shimmering.git` in Swift Package Manager.
 
 ## Usage Example
 
