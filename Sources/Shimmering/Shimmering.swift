@@ -1,6 +1,7 @@
-public struct Shimmering {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
 
-    public init() {
+extension View {
+    func setRedacted() -> some View {
+        self.redacted(reason: .placeholder)
     }
 }
