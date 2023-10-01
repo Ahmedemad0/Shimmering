@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension View {
-    func setRedacted() -> some View {
+    public func setRedacted() -> some View {
         self.redacted(reason: .placeholder)
     }
 }

@@ -1,11 +1,12 @@
 //
 //  ContentView.swift
-//  Shimmering
+//  TESTsHIMMER
 //
 //  Created by Ahmed Emad on 02/10/2023.
 //
 
 import SwiftUI
+import Shimmering
 
 struct ContentView: View {
     var body: some View {
@@ -15,7 +16,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        
+//        .se
         .padding()
     }
 }

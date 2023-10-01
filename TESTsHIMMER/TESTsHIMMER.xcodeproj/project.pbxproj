@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAB2A6912ACA351500F82B07 /* ShimmeringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6902ACA351500F82B07 /* ShimmeringApp.swift */; };
-		EAB2A6932ACA351500F82B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6922ACA351500F82B07 /* ContentView.swift */; };
-		EAB2A6952ACA351700F82B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6942ACA351700F82B07 /* Assets.xcassets */; };
-		EAB2A6982ACA351700F82B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6972ACA351700F82B07 /* Preview Assets.xcassets */; };
+		EAB2A6AE2ACA371D00F82B07 /* TESTsHIMMERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6AD2ACA371D00F82B07 /* TESTsHIMMERApp.swift */; };
+		EAB2A6B02ACA371D00F82B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6AF2ACA371D00F82B07 /* ContentView.swift */; };
+		EAB2A6B22ACA371F00F82B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6B12ACA371F00F82B07 /* Assets.xcassets */; };
+		EAB2A6B52ACA371F00F82B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6B42ACA371F00F82B07 /* Preview Assets.xcassets */; };
+		EAB2A6BD2ACA373300F82B07 /* Shimmering in Frameworks */ = {isa = PBXBuildFile; productRef = EAB2A6BC2ACA373300F82B07 /* Shimmering */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EAB2A68D2ACA351500F82B07 /* Shimmering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shimmering.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAB2A6902ACA351500F82B07 /* ShimmeringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmeringApp.swift; sourceTree = "<group>"; };
-		EAB2A6922ACA351500F82B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EAB2A6942ACA351700F82B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EAB2A6972ACA351700F82B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB2A6AA2ACA371D00F82B07 /* TESTsHIMMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTsHIMMER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB2A6AD2ACA371D00F82B07 /* TESTsHIMMERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTsHIMMERApp.swift; sourceTree = "<group>"; };
+		EAB2A6AF2ACA371D00F82B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAB2A6B12ACA371F00F82B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB2A6B42ACA371F00F82B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAB2A68A2ACA351500F82B07 /* Frameworks */ = {
+		EAB2A6A72ACA371D00F82B07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB2A6BD2ACA373300F82B07 /* Shimmering in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EAB2A6842ACA351500F82B07 = {
+		EAB2A6A12ACA371D00F82B07 = {
 			isa = PBXGroup;
 			children = (
-				EAB2A68F2ACA351500F82B07 /* Shimmering */,
-				EAB2A68E2ACA351500F82B07 /* Products */,
+				EAB2A6AC2ACA371D00F82B07 /* TESTsHIMMER */,
+				EAB2A6AB2ACA371D00F82B07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EAB2A68E2ACA351500F82B07 /* Products */ = {
+		EAB2A6AB2ACA371D00F82B07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAB2A68D2ACA351500F82B07 /* Shimmering.app */,
+				EAB2A6AA2ACA371D00F82B07 /* TESTsHIMMER.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAB2A68F2ACA351500F82B07 /* Shimmering */ = {
+		EAB2A6AC2ACA371D00F82B07 /* TESTsHIMMER */ = {
 			isa = PBXGroup;
 			children = (
-				EAB2A6902ACA351500F82B07 /* ShimmeringApp.swift */,
-				EAB2A6922ACA351500F82B07 /* ContentView.swift */,
-				EAB2A6942ACA351700F82B07 /* Assets.xcassets */,
-				EAB2A6962ACA351700F82B07 /* Preview Content */,
+				EAB2A6AD2ACA371D00F82B07 /* TESTsHIMMERApp.swift */,
+				EAB2A6AF2ACA371D00F82B07 /* ContentView.swift */,
+				EAB2A6B12ACA371F00F82B07 /* Assets.xcassets */,
+				EAB2A6B32ACA371F00F82B07 /* Preview Content */,
 			);
-			path = Shimmering;
+			path = TESTsHIMMER;
 			sourceTree = "<group>";
 		};
-		EAB2A6962ACA351700F82B07 /* Preview Content */ = {
+		EAB2A6B32ACA371F00F82B07 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EAB2A6972ACA351700F82B07 /* Preview Assets.xcassets */,
+				EAB2A6B42ACA371F00F82B07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +72,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAB2A68C2ACA351500F82B07 /* Shimmering */ = {
+		EAB2A6A92ACA371D00F82B07 /* TESTsHIMMER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAB2A69B2ACA351700F82B07 /* Build configuration list for PBXNativeTarget "Shimmering" */;
+			buildConfigurationList = EAB2A6B82ACA371F00F82B07 /* Build configuration list for PBXNativeTarget "TESTsHIMMER" */;
 			buildPhases = (
-				EAB2A6892ACA351500F82B07 /* Sources */,
-				EAB2A68A2ACA351500F82B07 /* Frameworks */,
-				EAB2A68B2ACA351500F82B07 /* Resources */,
+				EAB2A6A62ACA371D00F82B07 /* Sources */,
+				EAB2A6A72ACA371D00F82B07 /* Frameworks */,
+				EAB2A6A82ACA371D00F82B07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Shimmering;
-			productName = Shimmering;
-			productReference = EAB2A68D2ACA351500F82B07 /* Shimmering.app */;
+			name = TESTsHIMMER;
+			packageProductDependencies = (
+				EAB2A6BC2ACA373300F82B07 /* Shimmering */,
+			);
+			productName = TESTsHIMMER;
+			productReference = EAB2A6AA2ACA371D00F82B07 /* TESTsHIMMER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EAB2A6852ACA351500F82B07 /* Project object */ = {
+		EAB2A6A22ACA371D00F82B07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					EAB2A68C2ACA351500F82B07 = {
+					EAB2A6A92ACA371D00F82B07 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EAB2A6882ACA351500F82B07 /* Build configuration list for PBXProject "Shimmering" */;
+			buildConfigurationList = EAB2A6A52ACA371D00F82B07 /* Build configuration list for PBXProject "TESTsHIMMER" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +115,45 @@
 				en,
 				Base,
 			);
-			mainGroup = EAB2A6842ACA351500F82B07;
-			productRefGroup = EAB2A68E2ACA351500F82B07 /* Products */;
+			mainGroup = EAB2A6A12ACA371D00F82B07;
+			packageReferences = (
+				EAB2A6BB2ACA373300F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */,
+			);
+			productRefGroup = EAB2A6AB2ACA371D00F82B07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAB2A68C2ACA351500F82B07 /* Shimmering */,
+				EAB2A6A92ACA371D00F82B07 /* TESTsHIMMER */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EAB2A68B2ACA351500F82B07 /* Resources */ = {
+		EAB2A6A82ACA371D00F82B07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB2A6982ACA351700F82B07 /* Preview Assets.xcassets in Resources */,
-				EAB2A6952ACA351700F82B07 /* Assets.xcassets in Resources */,
+				EAB2A6B52ACA371F00F82B07 /* Preview Assets.xcassets in Resources */,
+				EAB2A6B22ACA371F00F82B07 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAB2A6892ACA351500F82B07 /* Sources */ = {
+		EAB2A6A62ACA371D00F82B07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB2A6932ACA351500F82B07 /* ContentView.swift in Sources */,
-				EAB2A6912ACA351500F82B07 /* ShimmeringApp.swift in Sources */,
+				EAB2A6B02ACA371D00F82B07 /* ContentView.swift in Sources */,
+				EAB2A6AE2ACA371D00F82B07 /* TESTsHIMMERApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EAB2A6992ACA351700F82B07 /* Debug */ = {
+		EAB2A6B62ACA371F00F82B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		EAB2A69A2ACA351700F82B07 /* Release */ = {
+		EAB2A6B72ACA371F00F82B07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +267,14 @@
 			};
 			name = Release;
 		};
-		EAB2A69C2ACA351700F82B07 /* Debug */ = {
+		EAB2A6B92ACA371F00F82B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shimmering/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TESTsHIMMER/Preview Content\"";
 				DEVELOPMENT_TEAM = X65JBYCV33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Shimmering;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TESTsHIMMER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +296,14 @@
 			};
 			name = Debug;
 		};
-		EAB2A69D2ACA351700F82B07 /* Release */ = {
+		EAB2A6BA2ACA371F00F82B07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shimmering/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TESTsHIMMER/Preview Content\"";
 				DEVELOPMENT_TEAM = X65JBYCV33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Shimmering;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TESTsHIMMER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +328,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAB2A6882ACA351500F82B07 /* Build configuration list for PBXProject "Shimmering" */ = {
+		EAB2A6A52ACA371D00F82B07 /* Build configuration list for PBXProject "TESTsHIMMER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAB2A6992ACA351700F82B07 /* Debug */,
-				EAB2A69A2ACA351700F82B07 /* Release */,
+				EAB2A6B62ACA371F00F82B07 /* Debug */,
+				EAB2A6B72ACA371F00F82B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAB2A69B2ACA351700F82B07 /* Build configuration list for PBXNativeTarget "Shimmering" */ = {
+		EAB2A6B82ACA371F00F82B07 /* Build configuration list for PBXNativeTarget "TESTsHIMMER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAB2A69C2ACA351700F82B07 /* Debug */,
-				EAB2A69D2ACA351700F82B07 /* Release */,
+				EAB2A6B92ACA371F00F82B07 /* Debug */,
+				EAB2A6BA2ACA371F00F82B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAB2A6BB2ACA373300F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ahmedemad0/Shimmering.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAB2A6BC2ACA373300F82B07 /* Shimmering */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAB2A6BB2ACA373300F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */;
+			productName = Shimmering;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = EAB2A6852ACA351500F82B07 /* Project object */;
+	rootObject = EAB2A6A22ACA371D00F82B07 /* Project object */;
 }
