@@ -29,7 +29,9 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                 Rectangle()
                     .fill(config.tint)
                     .mask{
-                        content
+                        if config.isMasking{
+                            content
+                        }
                     }
                     .overlay{
                         /// Shimmer ....
@@ -61,9 +63,7 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                                 }
                         }
                         .mask{
-                            if config.isMasking{
-                                content
-                            }
+                            content
                         }
                     }
                 
