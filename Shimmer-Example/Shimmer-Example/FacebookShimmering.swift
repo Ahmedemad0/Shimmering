@@ -1,27 +1,12 @@
-# Shimmering
+//
+//  FacebookShimmering.swift
+//  Shimmer-Example
+//
+//  Created by Ahmed Emad on 02/10/2023.
+//
 
-## Installation
-
-To install this package, import `https://github.com/Ahmedemad0/Shimmering.git` in Swift Package Manager.
-
-## Images
-![image alt text](file: /Users/ahmedemad/Downloads)
-
-## Usage Example
-
-``` swift
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello Shimmering)
-            .shommering()
-    }
-}
-
-```
-### Let's make this view
-#### You can cutomize `shimmering` by using `ShimmeringConfig`
-``` swift
+import SwiftUI
+import Shimmering
 
 struct FacebookShimmering: View {
     var body: some View {
@@ -52,5 +37,8 @@ struct FacebookShimmering: View {
         
 }
 
-
-```
+struct FacebookShimmering_Previews: PreviewProvider {
+    static var previews: some View {
+        FacebookShimmering()
+    }
+}

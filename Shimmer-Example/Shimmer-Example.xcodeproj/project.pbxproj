@@ -12,6 +12,7 @@
 		EAB2A6D92ACA509100F82B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6D82ACA509100F82B07 /* ContentView.swift */; };
 		EAB2A6DB2ACA509300F82B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6DA2ACA509300F82B07 /* Assets.xcassets */; };
 		EAB2A6DE2ACA509300F82B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6DD2ACA509300F82B07 /* Preview Assets.xcassets */; };
+		EABD1FC72ACAD0C70061769D /* FacebookShimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD1FC62ACAD0C70061769D /* FacebookShimmering.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EAB2A6D82ACA509100F82B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAB2A6DA2ACA509300F82B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB2A6DD2ACA509300F82B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EABD1FC62ACAD0C70061769D /* FacebookShimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookShimmering.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EAB2A6D62ACA509100F82B07 /* Shimmer_ExampleApp.swift */,
 				EAB2A6D82ACA509100F82B07 /* ContentView.swift */,
+				EABD1FC62ACAD0C70061769D /* FacebookShimmering.swift */,
 				EAB2A6DA2ACA509300F82B07 /* Assets.xcassets */,
 				EAB2A6DC2ACA509300F82B07 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				EAB2A6D92ACA509100F82B07 /* ContentView.swift in Sources */,
 				EAB2A6D72ACA509100F82B07 /* Shimmer_ExampleApp.swift in Sources */,
+				EABD1FC72ACAD0C70061769D /* FacebookShimmering.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
