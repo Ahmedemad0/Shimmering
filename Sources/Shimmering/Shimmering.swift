@@ -53,7 +53,7 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                                     /// Adding blur
                                         .blur(radius: config.blur)
                                     /// Adding rotation
-                                        .rotationEffect(.init(degrees: -75))
+//                                        .rotationEffect(.init(degrees: -75))
                                     /// Moving to start
                                         .offset(x: moveTo > 0 ? extraOffset : -extraOffset)
                                         .offset(x: size.width * moveTo)
