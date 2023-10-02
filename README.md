@@ -5,7 +5,7 @@
 To install this package, import `https://github.com/Ahmedemad0/Shimmering.git` in Swift Package Manager.
 
 ## Images
-<img src = "readmeAssets/example1.JPG" width = "250" height = "250">
+<img src = "readmeAssets/example1.JPG" width = "350" height = "350">
 
 ## Usage Example
 
@@ -19,8 +19,11 @@ struct ContentView: View {
 }
 
 ```
+##### You can cutomize `shimmering` by using `ShimmeringConfig`
+
 ### Let's make this view
-#### You can cutomize `shimmering` by using `ShimmeringConfig`
+https://github.com/Ahmedemad0/Shimmering/assets/56051601/4be318c0-4d38-4ff6-82ea-322a05e055f7
+
 ``` swift
 
 struct FacebookShimmering: View {
