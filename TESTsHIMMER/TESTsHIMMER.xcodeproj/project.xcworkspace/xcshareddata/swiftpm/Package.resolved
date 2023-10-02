@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Ahmedemad0/Shimmering.git",
       "state" : {
-        "revision" : "beef9e7568e4d94216e82bf9692b48c1f30e5a82",
-        "version" : "1.0.5"
+        "revision" : "e277f6d8a3e5fea6b6402ae925a4737931fe559c",
+        "version" : "1.0.6"
       }
     }
   ],

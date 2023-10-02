@@ -7,9 +7,9 @@ extension View {
             .modifier(ShimmeringHelper(config: config))
     }
     
-    public func shimmering(_ isMasking: Bool? = true) -> some View {
+    public func shimmering() -> some View {
         self
-            .modifier(ShimmeringHelper(config: ShimmerConfig(tint: .gray.opacity(0.3), highlight: .white, blur: 5, isMasking: isMasking ?? true)))
+            .modifier(ShimmeringHelper(config: ShimmerConfig(tint: .gray.opacity(0.3), highlight: .white, blur: 5)))
     }
     
 }
@@ -29,9 +29,7 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                 Rectangle()
                     .fill(config.tint)
                     .mask{
-                        if config.isMasking{
-                            content
-                        }
+                        content
                     }
                     .overlay{
                         /// Shimmer ....

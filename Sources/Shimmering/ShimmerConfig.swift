@@ -13,6 +13,5 @@ public struct ShimmerConfig {
     var blur: CGFloat = 0.0
     var hightLightOpacity: CGFloat = 1.0
     var speed: CGFloat = 2.0
-    var isMasking: Bool = true
 }
 
