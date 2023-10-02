@@ -7,7 +7,7 @@ extension View {
             .modifier(ShimmeringHelper(config: config))
     }
     
-    public func shimmering(isMasking: Bool?) -> some View {
+    public func shimmering(_ isMasking: Bool? = true) -> some View {
         self
             .modifier(ShimmeringHelper(config: ShimmerConfig(tint: .gray.opacity(0.3), highlight: .white, blur: 5, isMasking: isMasking ?? true)))
     }
