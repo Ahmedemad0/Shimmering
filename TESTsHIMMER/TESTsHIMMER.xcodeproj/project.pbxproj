@@ -11,7 +11,7 @@
 		EAB2A6B02ACA371D00F82B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2A6AF2ACA371D00F82B07 /* ContentView.swift */; };
 		EAB2A6B22ACA371F00F82B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6B12ACA371F00F82B07 /* Assets.xcassets */; };
 		EAB2A6B52ACA371F00F82B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB2A6B42ACA371F00F82B07 /* Preview Assets.xcassets */; };
-		EAB2A6C02ACA385D00F82B07 /* Shimmering in Frameworks */ = {isa = PBXBuildFile; productRef = EAB2A6BF2ACA385D00F82B07 /* Shimmering */; };
+		EAB2A6C92ACA3A9D00F82B07 /* Shimmering in Frameworks */ = {isa = PBXBuildFile; productRef = EAB2A6C82ACA3A9D00F82B07 /* Shimmering */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB2A6C02ACA385D00F82B07 /* Shimmering in Frameworks */,
+				EAB2A6C92ACA3A9D00F82B07 /* Shimmering in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = TESTsHIMMER;
 			packageProductDependencies = (
-				EAB2A6BF2ACA385D00F82B07 /* Shimmering */,
+				EAB2A6C82ACA3A9D00F82B07 /* Shimmering */,
 			);
 			productName = TESTsHIMMER;
 			productReference = EAB2A6AA2ACA371D00F82B07 /* TESTsHIMMER.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = EAB2A6A12ACA371D00F82B07;
 			packageReferences = (
-				EAB2A6BE2ACA385D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */,
+				EAB2A6C72ACA3A9D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */,
 			);
 			productRefGroup = EAB2A6AB2ACA371D00F82B07 /* Products */;
 			projectDirPath = "";
@@ -349,20 +349,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EAB2A6BE2ACA385D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */ = {
+		EAB2A6C72ACA3A9D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Ahmedemad0/Shimmering.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EAB2A6BF2ACA385D00F82B07 /* Shimmering */ = {
+		EAB2A6C82ACA3A9D00F82B07 /* Shimmering */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EAB2A6BE2ACA385D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */;
+			package = EAB2A6C72ACA3A9D00F82B07 /* XCRemoteSwiftPackageReference "Shimmering" */;
 			productName = Shimmering;
 		};
 /* End XCSwiftPackageProductDependency section */
