@@ -18,7 +18,7 @@ extension View {
 fileprivate struct ShimmeringHelper: ViewModifier {
     /// Shimmer Config
     var config: ShimmerConfig
-    @State private var moveTo: CGFloat = -0.5
+    @State private var moveTo: CGFloat = -0.85
     
     func body(content: Content) -> some View {
         content
@@ -68,7 +68,7 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                 /// Adding animation and handle its movement
                     .onAppear{
                         DispatchQueue.main.async{
-                            moveTo = 0.1
+                            moveTo = 0.9
                         }
                     }
                     .animation(.linear(duration: config.speed).repeatForever(autoreverses: false), value: moveTo)
