@@ -68,7 +68,7 @@ fileprivate struct ShimmeringHelper: ViewModifier {
                 /// Adding animation and handle its movement
                     .onAppear{
                         DispatchQueue.main.async{
-                            moveTo = 0.7
+                            moveTo = 0.1
                         }
                     }
                     .animation(.linear(duration: config.speed).repeatForever(autoreverses: false), value: moveTo)
