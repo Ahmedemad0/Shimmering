@@ -5,7 +5,7 @@
 To install this package, import `https://github.com/Ahmedemad0/Shimmering.git` in Swift Package Manager.
 
 ## Images
-![image alt text](file: /Users/ahmedemad/example1.JPG)
+<img src = "readmeAssets/example1.JPG" width = "250" height = "250">
 
 ## Usage Example
 
